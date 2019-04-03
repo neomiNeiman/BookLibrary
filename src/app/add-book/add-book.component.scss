@@ -1,0 +1,21 @@
+.img1{
+  float: left;
+}
+.img2{
+  float: right;
+}
+.edit-book{
+  width: 300px;
+  display: grid;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: blue;
+  text-align: center;
+  margin-left: 600px;
+  margin-right: auto;
+
+  .btn-save{
+      width: 50px;
+      color: blue;
+      margin-left: auto;
+  }
+}
