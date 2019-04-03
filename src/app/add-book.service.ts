@@ -47,18 +47,8 @@ export class AddBookService {
     this.books[itemIndex] = book;
   }
 
-  deleteBook(item) {
-   let index = this.books.findIndex(item);
-   this.books.splice(index, 1);
-    //const bookEzer: Book[] = [] ;
-   // this.books.forEach(element => {
-        //if (element.id === item.id) {
-
-
-       // bookEzer.push(element);
-      //}
-    //});
-   // this.books = bookEzer;
-
+  deleteBook(id) {
+    let index = this.books.findIndex((book)=> book.id === id);
+        this.books.splice(index, 1);
   }
 }
